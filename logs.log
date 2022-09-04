@@ -2139,3 +2139,2349 @@ A value is trying to be set on a copy of a slice from a DataFrame
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   df_final_sub.drop_duplicates(subset='time', keep='first', inplace=True, ignore_index=False)
 
+2022-09-04 06:54:41,769:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-09-04 06:54:41,770:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-09-04 06:54:41,770:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-09-04 06:54:41,771:WARNING:No module named 'cuml'.
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-09-04 07:00:17,893:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\2566899487.py:1: FutureWarning: Dropping of nuisance columns in DataFrame reductions (with 'numeric_only=None') is deprecated; in a future version this will raise TypeError.  Select only valid columns before calling the reduction.
+  train_df.skew()
+
+2022-09-04 07:00:28,939:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\2591257319.py:1: FutureWarning: Dropping of nuisance columns in DataFrame reductions (with 'numeric_only=None') is deprecated; in a future version this will raise TypeError.  Select only valid columns before calling the reduction.
+  test_df.skew()
+
+2022-09-04 07:00:53,031:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\3862830570.py:1: FutureWarning: Dropping of nuisance columns in DataFrame reductions (with 'numeric_only=None') is deprecated; in a future version this will raise TypeError.  Select only valid columns before calling the reduction.
+  train_df.kurt()
+
+2022-09-04 07:00:53,977:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\586332809.py:1: FutureWarning: Dropping of nuisance columns in DataFrame reductions (with 'numeric_only=None') is deprecated; in a future version this will raise TypeError.  Select only valid columns before calling the reduction.
+  test_df.kurt()
+
+2022-09-04 07:02:39,698:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\1979449077.py:16: FutureWarning: Series.dt.weekofyear and Series.dt.week have been deprecated. Please use Series.dt.isocalendar().week instead.
+  train_df['week_of_year'] = train_df['time'].dt.weekofyear
+
+2022-09-04 07:02:39,712:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\1979449077.py:17: FutureWarning: Series.dt.weekofyear and Series.dt.week have been deprecated. Please use Series.dt.isocalendar().week instead.
+  test_df['week_of_year'] = test_df['time'].dt.weekofyear
+
+2022-09-04 07:07:39,552:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:39,737:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:39,921:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:40,106:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:40,291:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:40,477:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:40,678:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:40,864:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:41,050:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:41,236:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:41,410:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:41,583:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:41,756:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:41,929:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:42,101:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:42,284:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:42,488:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:42,675:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:42,852:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:43,029:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:43,189:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:43,350:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:43,509:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:43,667:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:43,809:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:43,968:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:44,113:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:44,256:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:44,394:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:44,518:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:44,641:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:44,763:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:07:50,828:INFO:PyCaret RegressionExperiment
+2022-09-04 07:07:50,828:INFO:Logging name: reg-default-name
+2022-09-04 07:07:50,828:INFO:ML Usecase: MLUsecase.REGRESSION
+2022-09-04 07:07:50,828:INFO:version 3.0.0.rc3
+2022-09-04 07:07:50,828:INFO:Initializing setup()
+2022-09-04 07:07:50,828:INFO:self.USI: d35d
+2022-09-04 07:07:50,828:INFO:self.variable_keys: {'html_param', 'X_test', 'transform_target_param', 'fold_generator', 'pipeline', 'X_train', '_all_models', 'fold_groups_param', '_ml_usecase', 'fold_shuffle_param', 'display_container', '_gpu_n_jobs_param', 'y_train', 'idx', 'variable_keys', 'exp_name_log', 'target_param', '_all_models_internal', 'memory', '_all_metrics', 'X', 'logging_param', 'n_jobs_param', '_available_plots', 'master_model_container', 'exp_id', 'transform_target_method_param', 'data', 'USI', 'y_test', 'log_plots_param', 'gpu_param', 'seed', 'y'}
+2022-09-04 07:07:50,828:INFO:Checking environment
+2022-09-04 07:07:50,829:INFO:python_version: 3.9.12
+2022-09-04 07:07:50,829:INFO:python_build: ('main', 'Apr  4 2022 05:22:27')
+2022-09-04 07:07:50,829:INFO:machine: AMD64
+2022-09-04 07:07:50,829:INFO:platform: Windows-10-10.0.22000-SP0
+2022-09-04 07:07:50,829:INFO:Memory: svmem(total=34302205952, available=23984463872, percent=30.1, used=10317742080, free=23984463872)
+2022-09-04 07:07:50,829:INFO:Physical Core: 8
+2022-09-04 07:07:50,829:INFO:Logical Core: 16
+2022-09-04 07:07:50,829:INFO:Checking libraries
+2022-09-04 07:07:50,829:INFO:System:
+2022-09-04 07:07:50,829:INFO:    python: 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)]
+2022-09-04 07:07:50,829:INFO:executable: C:\Users\JeanSwiegers\anaconda3\python.exe
+2022-09-04 07:07:50,829:INFO:   machine: Windows-10-10.0.22000-SP0
+2022-09-04 07:07:50,829:INFO:PyCaret required dependencies:
+2022-09-04 07:07:50,830:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2022-09-04 07:07:51,200:INFO:                 pip: 21.2.4
+2022-09-04 07:07:51,201:INFO:          setuptools: 61.2.0
+2022-09-04 07:07:51,201:INFO:             pycaret: 3.0.0.rc3
+2022-09-04 07:07:51,201:INFO:             IPython: 8.2.0
+2022-09-04 07:07:51,201:INFO:          ipywidgets: 7.6.5
+2022-09-04 07:07:51,201:INFO:                tqdm: 4.64.0
+2022-09-04 07:07:51,201:INFO:               numpy: 1.21.5
+2022-09-04 07:07:51,201:INFO:              pandas: 1.4.2
+2022-09-04 07:07:51,201:INFO:              jinja2: 2.11.3
+2022-09-04 07:07:51,201:INFO:               scipy: 1.7.3
+2022-09-04 07:07:51,201:INFO:              joblib: 1.1.0
+2022-09-04 07:07:51,201:INFO:             sklearn: 1.1.1
+2022-09-04 07:07:51,201:INFO:                pyod: Installed but version unavailable
+2022-09-04 07:07:51,201:INFO:            imblearn: 0.9.1
+2022-09-04 07:07:51,201:INFO:   category_encoders: 2.5.0
+2022-09-04 07:07:51,201:INFO:            lightgbm: 3.3.2
+2022-09-04 07:07:51,201:INFO:               numba: 0.55.1
+2022-09-04 07:07:51,201:INFO:            requests: 2.27.1
+2022-09-04 07:07:51,201:INFO:          matplotlib: 3.5.1
+2022-09-04 07:07:51,201:INFO:          scikitplot: 0.3.7
+2022-09-04 07:07:51,201:INFO:         yellowbrick: 1.4
+2022-09-04 07:07:51,201:INFO:              plotly: 5.6.0
+2022-09-04 07:07:51,201:INFO:             kaleido: 0.2.1
+2022-09-04 07:07:51,201:INFO:         statsmodels: 0.13.2
+2022-09-04 07:07:51,201:INFO:              sktime: 0.11.4
+2022-09-04 07:07:51,202:INFO:               tbats: Installed but version unavailable
+2022-09-04 07:07:51,202:INFO:            pmdarima: 1.8.5
+2022-09-04 07:07:51,202:INFO:              psutil: 5.9.0
+2022-09-04 07:07:51,202:INFO:None
+2022-09-04 07:07:51,202:INFO:Set up data.
+2022-09-04 07:07:51,208:INFO:Set up train/test split.
+2022-09-04 07:07:51,213:INFO:Set up folding strategy.
+2022-09-04 07:07:51,214:INFO:Assigning column types.
+2022-09-04 07:07:51,218:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2022-09-04 07:07:51,218:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,221:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,225:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,269:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,303:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,303:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:51,306:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:51,306:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,310:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,313:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,358:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,391:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,392:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:51,394:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:51,394:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2022-09-04 07:07:51,398:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,401:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,446:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,480:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,480:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:51,482:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:51,486:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,489:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,535:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,568:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,569:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:51,571:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:51,572:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2022-09-04 07:07:51,578:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,623:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,656:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,657:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:51,659:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:51,667:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,711:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,745:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,745:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:51,748:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:51,748:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2022-09-04 07:07:51,800:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,834:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,834:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:51,837:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:51,893:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,926:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:07:51,927:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:51,929:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:51,929:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2022-09-04 07:07:51,981:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:52,015:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:52,017:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:52,068:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:07:52,102:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:52,104:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:52,105:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2022-09-04 07:07:52,191:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:52,193:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:52,278:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:52,281:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:52,281:INFO:Preparing preprocessing pipeline...
+2022-09-04 07:07:52,282:INFO:Set up simple imputation.
+2022-09-04 07:07:52,282:INFO:Set up variance threshold.
+2022-09-04 07:07:52,335:INFO:Finished creating preprocessing pipeline.
+2022-09-04 07:07:52,339:INFO:Pipeline: Pipeline(memory=Memory(location=C:\Users\JEANSW~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Madrid_wind_speed',
+                                             'Valencia_wind_speed',
+                                             'Seville_humidity',
+                                             'Madrid_humidity',
+                                             'Bilbao_clouds_all',
+                                             'Bilbao_wind_speed',
+                                             'Bilbao_wind_deg',
+                                             'Barcelona_wind_speed',
+                                             'Barcelona_wind_deg',
+                                             'Barcelona_pressure',
+                                             'Barcelona_weat...
+                                             'Bilbao_temp_max',
+                                             'Seville_temp_min',
+                                             'Madrid_temp_min', 'year',
+                                             'weekday', 'week_of_year',
+                                             'day_of_the_year', 'day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(fill_value='constant',
+                                                              strategy='constant'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[],
+                                    transformer=VarianceThreshold(threshold=0)))])
+2022-09-04 07:07:52,339:INFO:Creating final display dataframe.
+2022-09-04 07:07:52,534:INFO:Setup display_container:                Description             Value
+0               Session id              8399
+1                   Target              hour
+2              Target type        Regression
+3               Data shape        (8763, 30)
+4         Train data shape        (6134, 30)
+5          Test data shape        (2629, 30)
+6         Numeric features                29
+7               Preprocess              True
+8          Imputation type            simple
+9       Numeric imputation              mean
+10  Categorical imputation          constant
+11  Low variance threshold                 0
+12          Fold Generator             KFold
+13             Fold Number                10
+14                CPU Jobs                -1
+15                 Use GPU             False
+16          Log Experiment             False
+17         Experiment Name  reg-default-name
+18                     USI              d35d
+2022-09-04 07:07:52,630:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:52,633:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:52,725:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:07:52,727:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:07:52,736:INFO:setup() successfully completed in 1.91s...............
+2022-09-04 07:07:53,554:INFO:Initializing compare_models()
+2022-09-04 07:07:53,555:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, include=None, fold=None, round=4, cross_validation=True, sort=R2, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engines': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>}, exclude=None)
+2022-09-04 07:07:53,555:INFO:Checking exceptions
+2022-09-04 07:07:53,557:INFO:Preparing display monitor
+2022-09-04 07:07:53,586:INFO:Initializing Linear Regression
+2022-09-04 07:07:53,586:INFO:Total runtime is 0.0 minutes
+2022-09-04 07:07:53,589:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:07:53,589:INFO:Initializing create_model()
+2022-09-04 07:07:53,589:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=lr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:07:53,589:INFO:Checking exceptions
+2022-09-04 07:07:53,591:INFO:Importing libraries
+2022-09-04 07:07:53,592:INFO:Copying training dataset
+2022-09-04 07:07:53,595:INFO:Defining folds
+2022-09-04 07:07:53,595:INFO:Declaring metric variables
+2022-09-04 07:07:53,597:INFO:Importing untrained model
+2022-09-04 07:07:53,600:INFO:Linear Regression Imported successfully
+2022-09-04 07:07:53,605:INFO:Starting cross validation
+2022-09-04 07:07:53,610:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:07:57,317:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,320:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,368:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,371:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,389:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,394:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,403:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,416:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,430:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,462:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,584:INFO:Calculating mean and std
+2022-09-04 07:07:57,586:INFO:Creating metrics dataframe
+2022-09-04 07:07:57,588:INFO:Uploading results into container
+2022-09-04 07:07:57,589:INFO:Uploading model into container now
+2022-09-04 07:07:57,589:INFO:master_model_container: 1
+2022-09-04 07:07:57,589:INFO:display_container: 2
+2022-09-04 07:07:57,589:INFO:LinearRegression(n_jobs=-1)
+2022-09-04 07:07:57,590:INFO:create_model() successfully completed......................................
+2022-09-04 07:07:57,684:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:07:57,684:INFO:Creating metrics dataframe
+2022-09-04 07:07:57,690:INFO:Initializing Lasso Regression
+2022-09-04 07:07:57,690:INFO:Total runtime is 0.06840003728866577 minutes
+2022-09-04 07:07:57,693:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:07:57,693:INFO:Initializing create_model()
+2022-09-04 07:07:57,693:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=lasso, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:07:57,693:INFO:Checking exceptions
+2022-09-04 07:07:57,695:INFO:Importing libraries
+2022-09-04 07:07:57,695:INFO:Copying training dataset
+2022-09-04 07:07:57,699:INFO:Defining folds
+2022-09-04 07:07:57,699:INFO:Declaring metric variables
+2022-09-04 07:07:57,702:INFO:Importing untrained model
+2022-09-04 07:07:57,705:INFO:Lasso Regression Imported successfully
+2022-09-04 07:07:57,710:INFO:Starting cross validation
+2022-09-04 07:07:57,711:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:07:57,780:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,782:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,798:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:57,800:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,252:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,286:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,288:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,303:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,310:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,311:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,321:INFO:Calculating mean and std
+2022-09-04 07:07:59,322:INFO:Creating metrics dataframe
+2022-09-04 07:07:59,325:INFO:Uploading results into container
+2022-09-04 07:07:59,325:INFO:Uploading model into container now
+2022-09-04 07:07:59,326:INFO:master_model_container: 2
+2022-09-04 07:07:59,326:INFO:display_container: 2
+2022-09-04 07:07:59,326:INFO:Lasso(random_state=8399)
+2022-09-04 07:07:59,326:INFO:create_model() successfully completed......................................
+2022-09-04 07:07:59,420:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:07:59,420:INFO:Creating metrics dataframe
+2022-09-04 07:07:59,426:INFO:Initializing Ridge Regression
+2022-09-04 07:07:59,427:INFO:Total runtime is 0.09735028346379598 minutes
+2022-09-04 07:07:59,429:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:07:59,429:INFO:Initializing create_model()
+2022-09-04 07:07:59,429:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=ridge, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:07:59,429:INFO:Checking exceptions
+2022-09-04 07:07:59,431:INFO:Importing libraries
+2022-09-04 07:07:59,432:INFO:Copying training dataset
+2022-09-04 07:07:59,436:INFO:Defining folds
+2022-09-04 07:07:59,436:INFO:Declaring metric variables
+2022-09-04 07:07:59,439:INFO:Importing untrained model
+2022-09-04 07:07:59,442:INFO:Ridge Regression Imported successfully
+2022-09-04 07:07:59,448:INFO:Starting cross validation
+2022-09-04 07:07:59,448:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:07:59,483:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=7.22952e-10): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,483:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=7.16054e-10): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,483:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,483:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,491:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=2.04874e-09): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,491:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,494:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=7.2335e-10): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,494:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,498:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=7.09694e-10): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,498:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,503:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=7.19442e-10): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,503:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,508:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=7.09353e-10): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,508:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,513:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=7.21025e-10): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,513:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,521:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=1.03423e-09): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,522:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,524:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_ridge.py:212: LinAlgWarning: Ill-conditioned matrix (rcond=7.23675e-10): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True, overwrite_a=True).T
+
+2022-09-04 07:07:59,524:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,532:INFO:Calculating mean and std
+2022-09-04 07:07:59,532:INFO:Creating metrics dataframe
+2022-09-04 07:07:59,536:INFO:Uploading results into container
+2022-09-04 07:07:59,536:INFO:Uploading model into container now
+2022-09-04 07:07:59,536:INFO:master_model_container: 3
+2022-09-04 07:07:59,537:INFO:display_container: 2
+2022-09-04 07:07:59,537:INFO:Ridge(random_state=8399)
+2022-09-04 07:07:59,537:INFO:create_model() successfully completed......................................
+2022-09-04 07:07:59,627:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:07:59,627:INFO:Creating metrics dataframe
+2022-09-04 07:07:59,634:INFO:Initializing Elastic Net
+2022-09-04 07:07:59,634:INFO:Total runtime is 0.10079963604609173 minutes
+2022-09-04 07:07:59,637:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:07:59,637:INFO:Initializing create_model()
+2022-09-04 07:07:59,637:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=en, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:07:59,637:INFO:Checking exceptions
+2022-09-04 07:07:59,640:INFO:Importing libraries
+2022-09-04 07:07:59,640:INFO:Copying training dataset
+2022-09-04 07:07:59,643:INFO:Defining folds
+2022-09-04 07:07:59,643:INFO:Declaring metric variables
+2022-09-04 07:07:59,645:INFO:Importing untrained model
+2022-09-04 07:07:59,648:INFO:Elastic Net Imported successfully
+2022-09-04 07:07:59,654:INFO:Starting cross validation
+2022-09-04 07:07:59,655:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:07:59,687:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,691:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,697:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,702:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,706:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,713:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,718:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,724:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,728:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,733:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,741:INFO:Calculating mean and std
+2022-09-04 07:07:59,741:INFO:Creating metrics dataframe
+2022-09-04 07:07:59,744:INFO:Uploading results into container
+2022-09-04 07:07:59,744:INFO:Uploading model into container now
+2022-09-04 07:07:59,744:INFO:master_model_container: 4
+2022-09-04 07:07:59,744:INFO:display_container: 2
+2022-09-04 07:07:59,744:INFO:ElasticNet(random_state=8399)
+2022-09-04 07:07:59,745:INFO:create_model() successfully completed......................................
+2022-09-04 07:07:59,831:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:07:59,831:INFO:Creating metrics dataframe
+2022-09-04 07:07:59,837:INFO:Initializing Least Angle Regression
+2022-09-04 07:07:59,838:INFO:Total runtime is 0.10420014063517254 minutes
+2022-09-04 07:07:59,840:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:07:59,840:INFO:Initializing create_model()
+2022-09-04 07:07:59,841:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=lar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:07:59,841:INFO:Checking exceptions
+2022-09-04 07:07:59,843:INFO:Importing libraries
+2022-09-04 07:07:59,843:INFO:Copying training dataset
+2022-09-04 07:07:59,847:INFO:Defining folds
+2022-09-04 07:07:59,847:INFO:Declaring metric variables
+2022-09-04 07:07:59,850:INFO:Importing untrained model
+2022-09-04 07:07:59,853:INFO:Least Angle Regression Imported successfully
+2022-09-04 07:07:59,858:INFO:Starting cross validation
+2022-09-04 07:07:59,858:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:07:59,889:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,893:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,898:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,898:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,899:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,903:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,909:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,910:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,913:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,915:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,917:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,918:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,918:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,924:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,928:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,928:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,934:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,934:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:07:59,934:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,940:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:07:59,948:INFO:Calculating mean and std
+2022-09-04 07:07:59,949:INFO:Creating metrics dataframe
+2022-09-04 07:07:59,951:INFO:Uploading results into container
+2022-09-04 07:07:59,951:INFO:Uploading model into container now
+2022-09-04 07:07:59,952:INFO:master_model_container: 5
+2022-09-04 07:07:59,952:INFO:display_container: 2
+2022-09-04 07:07:59,952:INFO:Lars(random_state=8399)
+2022-09-04 07:07:59,952:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:00,040:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:00,040:INFO:Creating metrics dataframe
+2022-09-04 07:08:00,047:INFO:Initializing Lasso Least Angle Regression
+2022-09-04 07:08:00,047:INFO:Total runtime is 0.10768352349599203 minutes
+2022-09-04 07:08:00,050:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:00,050:INFO:Initializing create_model()
+2022-09-04 07:08:00,050:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=llar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:00,050:INFO:Checking exceptions
+2022-09-04 07:08:00,052:INFO:Importing libraries
+2022-09-04 07:08:00,052:INFO:Copying training dataset
+2022-09-04 07:08:00,057:INFO:Defining folds
+2022-09-04 07:08:00,057:INFO:Declaring metric variables
+2022-09-04 07:08:00,059:INFO:Importing untrained model
+2022-09-04 07:08:00,063:INFO:Lasso Least Angle Regression Imported successfully
+2022-09-04 07:08:00,068:INFO:Starting cross validation
+2022-09-04 07:08:00,068:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:00,098:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,100:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,103:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,105:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,107:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,110:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,115:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,117:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,120:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,122:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,126:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,128:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,130:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,132:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,136:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,139:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,140:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,142:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,144:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-09-04 07:08:00,145:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,153:INFO:Calculating mean and std
+2022-09-04 07:08:00,154:INFO:Creating metrics dataframe
+2022-09-04 07:08:00,156:INFO:Uploading results into container
+2022-09-04 07:08:00,156:INFO:Uploading model into container now
+2022-09-04 07:08:00,156:INFO:master_model_container: 6
+2022-09-04 07:08:00,157:INFO:display_container: 2
+2022-09-04 07:08:00,157:INFO:LassoLars(random_state=8399)
+2022-09-04 07:08:00,157:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:00,242:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:00,243:INFO:Creating metrics dataframe
+2022-09-04 07:08:00,250:INFO:Initializing Orthogonal Matching Pursuit
+2022-09-04 07:08:00,250:INFO:Total runtime is 0.11106673479080201 minutes
+2022-09-04 07:08:00,253:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:00,253:INFO:Initializing create_model()
+2022-09-04 07:08:00,253:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=omp, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:00,253:INFO:Checking exceptions
+2022-09-04 07:08:00,255:INFO:Importing libraries
+2022-09-04 07:08:00,255:INFO:Copying training dataset
+2022-09-04 07:08:00,260:INFO:Defining folds
+2022-09-04 07:08:00,260:INFO:Declaring metric variables
+2022-09-04 07:08:00,263:INFO:Importing untrained model
+2022-09-04 07:08:00,266:INFO:Orthogonal Matching Pursuit Imported successfully
+2022-09-04 07:08:00,271:INFO:Starting cross validation
+2022-09-04 07:08:00,272:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:00,299:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,303:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,305:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,308:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,309:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,312:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,314:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,317:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,319:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,322:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,324:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,327:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,330:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,334:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,336:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,340:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,340:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,343:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,345:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-09-04 07:08:00,348:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,356:INFO:Calculating mean and std
+2022-09-04 07:08:00,356:INFO:Creating metrics dataframe
+2022-09-04 07:08:00,359:INFO:Uploading results into container
+2022-09-04 07:08:00,360:INFO:Uploading model into container now
+2022-09-04 07:08:00,360:INFO:master_model_container: 7
+2022-09-04 07:08:00,360:INFO:display_container: 2
+2022-09-04 07:08:00,361:INFO:OrthogonalMatchingPursuit()
+2022-09-04 07:08:00,361:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:00,447:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:00,448:INFO:Creating metrics dataframe
+2022-09-04 07:08:00,455:INFO:Initializing Bayesian Ridge
+2022-09-04 07:08:00,455:INFO:Total runtime is 0.11448298295338949 minutes
+2022-09-04 07:08:00,457:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:00,457:INFO:Initializing create_model()
+2022-09-04 07:08:00,458:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=br, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:00,458:INFO:Checking exceptions
+2022-09-04 07:08:00,460:INFO:Importing libraries
+2022-09-04 07:08:00,460:INFO:Copying training dataset
+2022-09-04 07:08:00,464:INFO:Defining folds
+2022-09-04 07:08:00,464:INFO:Declaring metric variables
+2022-09-04 07:08:00,466:INFO:Importing untrained model
+2022-09-04 07:08:00,469:INFO:Bayesian Ridge Imported successfully
+2022-09-04 07:08:00,475:INFO:Starting cross validation
+2022-09-04 07:08:00,475:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:00,512:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,517:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,522:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,527:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,532:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,537:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,542:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,548:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,553:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,561:INFO:Calculating mean and std
+2022-09-04 07:08:00,562:INFO:Creating metrics dataframe
+2022-09-04 07:08:00,565:INFO:Uploading results into container
+2022-09-04 07:08:00,565:INFO:Uploading model into container now
+2022-09-04 07:08:00,565:INFO:master_model_container: 8
+2022-09-04 07:08:00,566:INFO:display_container: 2
+2022-09-04 07:08:00,566:INFO:BayesianRidge()
+2022-09-04 07:08:00,566:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:00,655:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:00,655:INFO:Creating metrics dataframe
+2022-09-04 07:08:00,662:INFO:Initializing Passive Aggressive Regressor
+2022-09-04 07:08:00,662:INFO:Total runtime is 0.11793338855107625 minutes
+2022-09-04 07:08:00,665:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:00,665:INFO:Initializing create_model()
+2022-09-04 07:08:00,665:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=par, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:00,665:INFO:Checking exceptions
+2022-09-04 07:08:00,667:INFO:Importing libraries
+2022-09-04 07:08:00,667:INFO:Copying training dataset
+2022-09-04 07:08:00,672:INFO:Defining folds
+2022-09-04 07:08:00,672:INFO:Declaring metric variables
+2022-09-04 07:08:00,674:INFO:Importing untrained model
+2022-09-04 07:08:00,677:INFO:Passive Aggressive Regressor Imported successfully
+2022-09-04 07:08:00,682:INFO:Starting cross validation
+2022-09-04 07:08:00,682:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:00,720:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,724:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,734:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,737:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,746:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,754:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,758:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,763:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,767:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,778:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:00,786:INFO:Calculating mean and std
+2022-09-04 07:08:00,787:INFO:Creating metrics dataframe
+2022-09-04 07:08:00,790:INFO:Uploading results into container
+2022-09-04 07:08:00,790:INFO:Uploading model into container now
+2022-09-04 07:08:00,791:INFO:master_model_container: 9
+2022-09-04 07:08:00,791:INFO:display_container: 2
+2022-09-04 07:08:00,791:INFO:PassiveAggressiveRegressor(random_state=8399)
+2022-09-04 07:08:00,791:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:00,886:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:00,886:INFO:Creating metrics dataframe
+2022-09-04 07:08:00,894:INFO:Initializing Huber Regressor
+2022-09-04 07:08:00,894:INFO:Total runtime is 0.12179964383443197 minutes
+2022-09-04 07:08:00,897:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:00,897:INFO:Initializing create_model()
+2022-09-04 07:08:00,897:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=huber, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:00,897:INFO:Checking exceptions
+2022-09-04 07:08:00,899:INFO:Importing libraries
+2022-09-04 07:08:00,899:INFO:Copying training dataset
+2022-09-04 07:08:00,904:INFO:Defining folds
+2022-09-04 07:08:00,904:INFO:Declaring metric variables
+2022-09-04 07:08:00,906:INFO:Importing untrained model
+2022-09-04 07:08:00,910:INFO:Huber Regressor Imported successfully
+2022-09-04 07:08:00,917:INFO:Starting cross validation
+2022-09-04 07:08:00,917:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:01,314:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,315:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,333:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,334:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,340:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,342:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,378:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,379:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,404:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,406:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,433:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,434:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,435:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,436:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,440:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,441:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,441:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,442:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,448:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-09-04 07:08:01,449:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,458:INFO:Calculating mean and std
+2022-09-04 07:08:01,459:INFO:Creating metrics dataframe
+2022-09-04 07:08:01,462:INFO:Uploading results into container
+2022-09-04 07:08:01,462:INFO:Uploading model into container now
+2022-09-04 07:08:01,463:INFO:master_model_container: 10
+2022-09-04 07:08:01,463:INFO:display_container: 2
+2022-09-04 07:08:01,463:INFO:HuberRegressor()
+2022-09-04 07:08:01,463:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:01,553:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:01,553:INFO:Creating metrics dataframe
+2022-09-04 07:08:01,561:INFO:Initializing K Neighbors Regressor
+2022-09-04 07:08:01,561:INFO:Total runtime is 0.13291629950205486 minutes
+2022-09-04 07:08:01,563:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:01,564:INFO:Initializing create_model()
+2022-09-04 07:08:01,564:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=knn, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:01,564:INFO:Checking exceptions
+2022-09-04 07:08:01,566:INFO:Importing libraries
+2022-09-04 07:08:01,566:INFO:Copying training dataset
+2022-09-04 07:08:01,570:INFO:Defining folds
+2022-09-04 07:08:01,570:INFO:Declaring metric variables
+2022-09-04 07:08:01,572:INFO:Importing untrained model
+2022-09-04 07:08:01,575:INFO:K Neighbors Regressor Imported successfully
+2022-09-04 07:08:01,580:INFO:Starting cross validation
+2022-09-04 07:08:01,581:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:01,609:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,614:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,619:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,624:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,635:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,645:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,658:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,673:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,682:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,698:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:01,843:INFO:Calculating mean and std
+2022-09-04 07:08:01,845:INFO:Creating metrics dataframe
+2022-09-04 07:08:01,848:INFO:Uploading results into container
+2022-09-04 07:08:01,848:INFO:Uploading model into container now
+2022-09-04 07:08:01,848:INFO:master_model_container: 11
+2022-09-04 07:08:01,849:INFO:display_container: 2
+2022-09-04 07:08:01,849:INFO:KNeighborsRegressor(n_jobs=-1)
+2022-09-04 07:08:01,849:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:01,987:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:01,988:INFO:Creating metrics dataframe
+2022-09-04 07:08:01,996:INFO:Initializing Decision Tree Regressor
+2022-09-04 07:08:01,996:INFO:Total runtime is 0.1401663064956665 minutes
+2022-09-04 07:08:01,999:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:01,999:INFO:Initializing create_model()
+2022-09-04 07:08:01,999:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=dt, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:01,999:INFO:Checking exceptions
+2022-09-04 07:08:02,001:INFO:Importing libraries
+2022-09-04 07:08:02,001:INFO:Copying training dataset
+2022-09-04 07:08:02,005:INFO:Defining folds
+2022-09-04 07:08:02,005:INFO:Declaring metric variables
+2022-09-04 07:08:02,008:INFO:Importing untrained model
+2022-09-04 07:08:02,011:INFO:Decision Tree Regressor Imported successfully
+2022-09-04 07:08:02,017:INFO:Starting cross validation
+2022-09-04 07:08:02,017:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:02,141:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,151:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,153:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,156:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,158:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,163:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,175:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,181:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,199:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,208:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:02,216:INFO:Calculating mean and std
+2022-09-04 07:08:02,217:INFO:Creating metrics dataframe
+2022-09-04 07:08:02,219:INFO:Uploading results into container
+2022-09-04 07:08:02,220:INFO:Uploading model into container now
+2022-09-04 07:08:02,220:INFO:master_model_container: 12
+2022-09-04 07:08:02,220:INFO:display_container: 2
+2022-09-04 07:08:02,220:INFO:DecisionTreeRegressor(random_state=8399)
+2022-09-04 07:08:02,220:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:02,306:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:02,306:INFO:Creating metrics dataframe
+2022-09-04 07:08:02,314:INFO:Initializing Random Forest Regressor
+2022-09-04 07:08:02,314:INFO:Total runtime is 0.1454667051633199 minutes
+2022-09-04 07:08:02,317:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:02,317:INFO:Initializing create_model()
+2022-09-04 07:08:02,317:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=rf, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:02,317:INFO:Checking exceptions
+2022-09-04 07:08:02,319:INFO:Importing libraries
+2022-09-04 07:08:02,319:INFO:Copying training dataset
+2022-09-04 07:08:02,323:INFO:Defining folds
+2022-09-04 07:08:02,323:INFO:Declaring metric variables
+2022-09-04 07:08:02,326:INFO:Importing untrained model
+2022-09-04 07:08:02,329:INFO:Random Forest Regressor Imported successfully
+2022-09-04 07:08:02,334:INFO:Starting cross validation
+2022-09-04 07:08:02,334:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:03,903:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:04,125:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:04,340:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:07,261:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:07,272:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:07,280:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:07,284:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:07,297:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:07,331:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:07,349:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:07,377:INFO:Calculating mean and std
+2022-09-04 07:08:07,378:INFO:Creating metrics dataframe
+2022-09-04 07:08:07,380:INFO:Uploading results into container
+2022-09-04 07:08:07,381:INFO:Uploading model into container now
+2022-09-04 07:08:07,381:INFO:master_model_container: 13
+2022-09-04 07:08:07,381:INFO:display_container: 2
+2022-09-04 07:08:07,381:INFO:RandomForestRegressor(n_jobs=-1, random_state=8399)
+2022-09-04 07:08:07,381:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:07,471:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:07,471:INFO:Creating metrics dataframe
+2022-09-04 07:08:07,480:INFO:Initializing Extra Trees Regressor
+2022-09-04 07:08:07,480:INFO:Total runtime is 0.23156670331954954 minutes
+2022-09-04 07:08:07,483:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:07,483:INFO:Initializing create_model()
+2022-09-04 07:08:07,483:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=et, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:07,483:INFO:Checking exceptions
+2022-09-04 07:08:07,486:INFO:Importing libraries
+2022-09-04 07:08:07,486:INFO:Copying training dataset
+2022-09-04 07:08:07,491:INFO:Defining folds
+2022-09-04 07:08:07,491:INFO:Declaring metric variables
+2022-09-04 07:08:07,494:INFO:Importing untrained model
+2022-09-04 07:08:07,497:INFO:Extra Trees Regressor Imported successfully
+2022-09-04 07:08:07,503:INFO:Starting cross validation
+2022-09-04 07:08:07,504:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:08,598:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:08,612:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:08,793:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:08,835:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:09,097:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:09,097:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:09,476:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:09,571:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:09,638:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:09,666:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:09,693:INFO:Calculating mean and std
+2022-09-04 07:08:09,694:INFO:Creating metrics dataframe
+2022-09-04 07:08:09,697:INFO:Uploading results into container
+2022-09-04 07:08:09,697:INFO:Uploading model into container now
+2022-09-04 07:08:09,697:INFO:master_model_container: 14
+2022-09-04 07:08:09,698:INFO:display_container: 2
+2022-09-04 07:08:09,698:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=8399)
+2022-09-04 07:08:09,698:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:09,785:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:09,785:INFO:Creating metrics dataframe
+2022-09-04 07:08:09,795:INFO:Initializing AdaBoost Regressor
+2022-09-04 07:08:09,795:INFO:Total runtime is 0.27014993826548256 minutes
+2022-09-04 07:08:09,798:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:09,798:INFO:Initializing create_model()
+2022-09-04 07:08:09,798:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=ada, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:09,798:INFO:Checking exceptions
+2022-09-04 07:08:09,800:INFO:Importing libraries
+2022-09-04 07:08:09,800:INFO:Copying training dataset
+2022-09-04 07:08:09,805:INFO:Defining folds
+2022-09-04 07:08:09,805:INFO:Declaring metric variables
+2022-09-04 07:08:09,808:INFO:Importing untrained model
+2022-09-04 07:08:09,811:INFO:AdaBoost Regressor Imported successfully
+2022-09-04 07:08:09,816:INFO:Starting cross validation
+2022-09-04 07:08:09,817:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:10,050:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,096:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,102:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,107:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,127:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,175:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,209:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,274:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,313:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,489:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:10,500:INFO:Calculating mean and std
+2022-09-04 07:08:10,501:INFO:Creating metrics dataframe
+2022-09-04 07:08:10,503:INFO:Uploading results into container
+2022-09-04 07:08:10,504:INFO:Uploading model into container now
+2022-09-04 07:08:10,504:INFO:master_model_container: 15
+2022-09-04 07:08:10,504:INFO:display_container: 2
+2022-09-04 07:08:10,504:INFO:AdaBoostRegressor(random_state=8399)
+2022-09-04 07:08:10,504:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:10,588:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:10,588:INFO:Creating metrics dataframe
+2022-09-04 07:08:10,597:INFO:Initializing Gradient Boosting Regressor
+2022-09-04 07:08:10,597:INFO:Total runtime is 0.28351671298344927 minutes
+2022-09-04 07:08:10,600:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:10,600:INFO:Initializing create_model()
+2022-09-04 07:08:10,600:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=gbr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:10,600:INFO:Checking exceptions
+2022-09-04 07:08:10,602:INFO:Importing libraries
+2022-09-04 07:08:10,602:INFO:Copying training dataset
+2022-09-04 07:08:10,607:INFO:Defining folds
+2022-09-04 07:08:10,607:INFO:Declaring metric variables
+2022-09-04 07:08:10,609:INFO:Importing untrained model
+2022-09-04 07:08:10,612:INFO:Gradient Boosting Regressor Imported successfully
+2022-09-04 07:08:10,617:INFO:Starting cross validation
+2022-09-04 07:08:10,618:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:12,769:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,770:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,787:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,789:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,793:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,802:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,823:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,854:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,873:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,875:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:12,884:INFO:Calculating mean and std
+2022-09-04 07:08:12,886:INFO:Creating metrics dataframe
+2022-09-04 07:08:12,888:INFO:Uploading results into container
+2022-09-04 07:08:12,889:INFO:Uploading model into container now
+2022-09-04 07:08:12,889:INFO:master_model_container: 16
+2022-09-04 07:08:12,889:INFO:display_container: 2
+2022-09-04 07:08:12,889:INFO:GradientBoostingRegressor(random_state=8399)
+2022-09-04 07:08:12,889:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:12,975:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:12,975:INFO:Creating metrics dataframe
+2022-09-04 07:08:12,984:INFO:Initializing Extreme Gradient Boosting
+2022-09-04 07:08:12,984:INFO:Total runtime is 0.32330004374186194 minutes
+2022-09-04 07:08:12,987:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:12,987:INFO:Initializing create_model()
+2022-09-04 07:08:12,987:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=xgboost, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:12,987:INFO:Checking exceptions
+2022-09-04 07:08:12,989:INFO:Importing libraries
+2022-09-04 07:08:12,989:INFO:Copying training dataset
+2022-09-04 07:08:12,994:INFO:Defining folds
+2022-09-04 07:08:12,994:INFO:Declaring metric variables
+2022-09-04 07:08:12,996:INFO:Importing untrained model
+2022-09-04 07:08:13,001:INFO:Extreme Gradient Boosting Imported successfully
+2022-09-04 07:08:13,007:INFO:Starting cross validation
+2022-09-04 07:08:13,008:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:14,515:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,639:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,641:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,644:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,651:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,655:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,678:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,683:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,683:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,684:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:14,695:INFO:Calculating mean and std
+2022-09-04 07:08:14,696:INFO:Creating metrics dataframe
+2022-09-04 07:08:14,698:INFO:Uploading results into container
+2022-09-04 07:08:14,699:INFO:Uploading model into container now
+2022-09-04 07:08:14,699:INFO:master_model_container: 17
+2022-09-04 07:08:14,699:INFO:display_container: 2
+2022-09-04 07:08:14,700:INFO:XGBRegressor(base_score=None, booster='gbtree', callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, gamma=None,
+             gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, n_estimators=100, n_jobs=-1,
+             num_parallel_tree=None, predictor=None, random_state=8399,
+             reg_alpha=None, reg_lambda=None, ...)
+2022-09-04 07:08:14,700:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:14,784:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:14,784:INFO:Creating metrics dataframe
+2022-09-04 07:08:14,793:INFO:Initializing Light Gradient Boosting Machine
+2022-09-04 07:08:14,793:INFO:Total runtime is 0.3534496466318766 minutes
+2022-09-04 07:08:14,796:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:14,796:INFO:Initializing create_model()
+2022-09-04 07:08:14,796:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=lightgbm, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:14,796:INFO:Checking exceptions
+2022-09-04 07:08:14,798:INFO:Importing libraries
+2022-09-04 07:08:14,798:INFO:Copying training dataset
+2022-09-04 07:08:14,802:INFO:Defining folds
+2022-09-04 07:08:14,803:INFO:Declaring metric variables
+2022-09-04 07:08:14,805:INFO:Importing untrained model
+2022-09-04 07:08:14,808:INFO:Light Gradient Boosting Machine Imported successfully
+2022-09-04 07:08:14,813:INFO:Starting cross validation
+2022-09-04 07:08:14,814:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:15,646:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,647:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,648:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,648:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,653:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,680:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,698:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,710:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,715:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,739:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,750:INFO:Calculating mean and std
+2022-09-04 07:08:15,752:INFO:Creating metrics dataframe
+2022-09-04 07:08:15,754:INFO:Uploading results into container
+2022-09-04 07:08:15,754:INFO:Uploading model into container now
+2022-09-04 07:08:15,754:INFO:master_model_container: 18
+2022-09-04 07:08:15,754:INFO:display_container: 2
+2022-09-04 07:08:15,755:INFO:LGBMRegressor(random_state=8399)
+2022-09-04 07:08:15,755:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:15,843:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:15,844:INFO:Creating metrics dataframe
+2022-09-04 07:08:15,853:INFO:Initializing Dummy Regressor
+2022-09-04 07:08:15,853:INFO:Total runtime is 0.37111680110295614 minutes
+2022-09-04 07:08:15,856:INFO:SubProcess create_model() called ==================================
+2022-09-04 07:08:15,856:INFO:Initializing create_model()
+2022-09-04 07:08:15,856:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=dummy, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000029493EA6520>, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:15,856:INFO:Checking exceptions
+2022-09-04 07:08:15,859:INFO:Importing libraries
+2022-09-04 07:08:15,859:INFO:Copying training dataset
+2022-09-04 07:08:15,863:INFO:Defining folds
+2022-09-04 07:08:15,863:INFO:Declaring metric variables
+2022-09-04 07:08:15,865:INFO:Importing untrained model
+2022-09-04 07:08:15,868:INFO:Dummy Regressor Imported successfully
+2022-09-04 07:08:15,873:INFO:Starting cross validation
+2022-09-04 07:08:15,874:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-09-04 07:08:15,902:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,906:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,911:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,915:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,920:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,925:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,930:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,936:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,944:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,952:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\metaestimators.py:201: FutureWarning: if_delegate_has_method was deprecated in version 1.1 and will be removed in version 1.3. Use if_available instead.
+  warnings.warn(
+
+2022-09-04 07:08:15,961:INFO:Calculating mean and std
+2022-09-04 07:08:15,961:INFO:Creating metrics dataframe
+2022-09-04 07:08:15,964:INFO:Uploading results into container
+2022-09-04 07:08:15,964:INFO:Uploading model into container now
+2022-09-04 07:08:15,965:INFO:master_model_container: 19
+2022-09-04 07:08:15,965:INFO:display_container: 2
+2022-09-04 07:08:15,965:INFO:DummyRegressor()
+2022-09-04 07:08:15,965:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:16,050:INFO:SubProcess create_model() end ==================================
+2022-09-04 07:08:16,050:INFO:Creating metrics dataframe
+2022-09-04 07:08:16,066:INFO:Initializing create_model()
+2022-09-04 07:08:16,066:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294AD21F2E0>, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=8399), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2022-09-04 07:08:16,066:INFO:Checking exceptions
+2022-09-04 07:08:16,069:INFO:Importing libraries
+2022-09-04 07:08:16,070:INFO:Copying training dataset
+2022-09-04 07:08:16,073:INFO:Defining folds
+2022-09-04 07:08:16,073:INFO:Declaring metric variables
+2022-09-04 07:08:16,073:INFO:Importing untrained model
+2022-09-04 07:08:16,073:INFO:Declaring custom model
+2022-09-04 07:08:16,074:INFO:Extra Trees Regressor Imported successfully
+2022-09-04 07:08:16,074:INFO:Cross validation set to False
+2022-09-04 07:08:16,074:INFO:Fitting Model
+2022-09-04 07:08:16,420:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=8399)
+2022-09-04 07:08:16,420:INFO:create_model() successfully completed......................................
+2022-09-04 07:08:16,533:INFO:master_model_container: 19
+2022-09-04 07:08:16,533:INFO:display_container: 2
+2022-09-04 07:08:16,533:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=8399)
+2022-09-04 07:08:16,533:INFO:compare_models() successfully completed......................................
+2022-09-04 07:09:01,509:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:44,675:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:44,855:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:45,036:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:45,228:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:45,409:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:45,592:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:45,785:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:45,969:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:46,153:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:46,322:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:46,499:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:46,673:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:46,848:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:47,027:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:47,195:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:47,364:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:47,569:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:47,752:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:47,916:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:48,076:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:48,243:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:48,406:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:48,567:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:48,736:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:48,874:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:49,012:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:49,146:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:49,272:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:49,402:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:49,523:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:49,645:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:09:49,761:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:13:28,456:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\3141024277.py:3: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  rfr_model.fit(X_train, y_train)
+
+2022-09-04 07:13:31,195:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:13:37,949:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\155612972.py:3: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  etr_model.fit(X_train, y_train)
+
+2022-09-04 07:13:45,768:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\2533883220.py:3: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  etr_model.fit(X_train, y_train)
+
+2022-09-04 07:13:50,949:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\611992393.py:3: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  etr_model.fit(X_train, y_train)
+
+2022-09-04 07:15:52,316:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:15:53,591:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\3141024277.py:3: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  rfr_model.fit(X_train, y_train)
+
+2022-09-04 07:15:54,826:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:15:58,521:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\611992393.py:3: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  etr_model.fit(X_train, y_train)
+
+2022-09-04 07:16:10,390:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:16:10,703:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\3845812757.py:6: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:16:11,997:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:16:15,649:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\3845812757.py:6: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:17:09,779:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:17:10,082:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\1991852794.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:17:11,384:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:17:15,060:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\1991852794.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:17:42,061:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:17:42,366:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\2515776220.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:17:43,674:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:17:47,349:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\2515776220.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:18:54,728:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:18:55,040:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\247852075.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:18:56,338:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:19:00,030:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\247852075.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:19:36,047:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:19:36,370:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\3837394913.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:19:37,669:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:19:41,335:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\3837394913.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:19:41,763:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:19:42,182:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\3094263137.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:19:43,476:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:19:47,128:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\3094263137.py:7: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:22:08,050:INFO:PyCaret RegressionExperiment
+2022-09-04 07:22:08,051:INFO:Logging name: reg-default-name
+2022-09-04 07:22:08,051:INFO:ML Usecase: MLUsecase.REGRESSION
+2022-09-04 07:22:08,051:INFO:version 3.0.0.rc3
+2022-09-04 07:22:08,051:INFO:Initializing setup()
+2022-09-04 07:22:08,051:INFO:self.USI: 9390
+2022-09-04 07:22:08,051:INFO:self.variable_keys: {'html_param', 'X_test', 'transform_target_param', 'fold_generator', 'pipeline', 'X_train', '_all_models', 'fold_groups_param', '_ml_usecase', 'fold_shuffle_param', 'display_container', '_gpu_n_jobs_param', 'y_train', 'idx', 'variable_keys', 'exp_name_log', 'target_param', '_all_models_internal', 'memory', '_all_metrics', 'X', 'logging_param', 'n_jobs_param', '_available_plots', 'master_model_container', 'exp_id', 'transform_target_method_param', 'data', 'USI', 'y_test', 'log_plots_param', 'gpu_param', 'seed', 'y'}
+2022-09-04 07:22:08,051:INFO:Checking environment
+2022-09-04 07:22:08,051:INFO:python_version: 3.9.12
+2022-09-04 07:22:08,051:INFO:python_build: ('main', 'Apr  4 2022 05:22:27')
+2022-09-04 07:22:08,051:INFO:machine: AMD64
+2022-09-04 07:22:08,051:INFO:platform: Windows-10-10.0.22000-SP0
+2022-09-04 07:22:08,051:INFO:Memory: svmem(total=34302205952, available=23873806336, percent=30.4, used=10428399616, free=23873806336)
+2022-09-04 07:22:08,051:INFO:Physical Core: 8
+2022-09-04 07:22:08,051:INFO:Logical Core: 16
+2022-09-04 07:22:08,051:INFO:Checking libraries
+2022-09-04 07:22:08,051:INFO:System:
+2022-09-04 07:22:08,051:INFO:    python: 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)]
+2022-09-04 07:22:08,051:INFO:executable: C:\Users\JeanSwiegers\anaconda3\python.exe
+2022-09-04 07:22:08,051:INFO:   machine: Windows-10-10.0.22000-SP0
+2022-09-04 07:22:08,051:INFO:PyCaret required dependencies:
+2022-09-04 07:22:08,052:INFO:                 pip: 21.2.4
+2022-09-04 07:22:08,052:INFO:          setuptools: 61.2.0
+2022-09-04 07:22:08,052:INFO:             pycaret: 3.0.0.rc3
+2022-09-04 07:22:08,052:INFO:             IPython: 8.2.0
+2022-09-04 07:22:08,052:INFO:          ipywidgets: 7.6.5
+2022-09-04 07:22:08,052:INFO:                tqdm: 4.64.0
+2022-09-04 07:22:08,052:INFO:               numpy: 1.21.5
+2022-09-04 07:22:08,052:INFO:              pandas: 1.4.2
+2022-09-04 07:22:08,052:INFO:              jinja2: 2.11.3
+2022-09-04 07:22:08,052:INFO:               scipy: 1.7.3
+2022-09-04 07:22:08,052:INFO:              joblib: 1.1.0
+2022-09-04 07:22:08,052:INFO:             sklearn: 1.1.1
+2022-09-04 07:22:08,052:INFO:                pyod: Installed but version unavailable
+2022-09-04 07:22:08,052:INFO:            imblearn: 0.9.1
+2022-09-04 07:22:08,052:INFO:   category_encoders: 2.5.0
+2022-09-04 07:22:08,052:INFO:            lightgbm: 3.3.2
+2022-09-04 07:22:08,052:INFO:               numba: 0.55.1
+2022-09-04 07:22:08,052:INFO:            requests: 2.27.1
+2022-09-04 07:22:08,052:INFO:          matplotlib: 3.5.1
+2022-09-04 07:22:08,052:INFO:          scikitplot: 0.3.7
+2022-09-04 07:22:08,052:INFO:         yellowbrick: 1.4
+2022-09-04 07:22:08,052:INFO:              plotly: 5.6.0
+2022-09-04 07:22:08,052:INFO:             kaleido: 0.2.1
+2022-09-04 07:22:08,052:INFO:         statsmodels: 0.13.2
+2022-09-04 07:22:08,053:INFO:              sktime: 0.11.4
+2022-09-04 07:22:08,053:INFO:               tbats: Installed but version unavailable
+2022-09-04 07:22:08,053:INFO:            pmdarima: 1.8.5
+2022-09-04 07:22:08,053:INFO:              psutil: 5.9.0
+2022-09-04 07:22:08,053:INFO:None
+2022-09-04 07:22:08,053:INFO:Set up data.
+2022-09-04 07:22:08,060:INFO:Set up train/test split.
+2022-09-04 07:22:08,066:INFO:Set up folding strategy.
+2022-09-04 07:22:08,066:INFO:Assigning column types.
+2022-09-04 07:22:08,072:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2022-09-04 07:22:08,072:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,076:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,079:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,125:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,158:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,159:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,161:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,162:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,165:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,169:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,214:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,247:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,248:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,250:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,250:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2022-09-04 07:22:08,254:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,257:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,302:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,335:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,335:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,338:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,342:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,345:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,389:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,422:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,423:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,425:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,426:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2022-09-04 07:22:08,433:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,478:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,511:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,511:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,513:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,520:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,565:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,599:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,599:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,601:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,602:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2022-09-04 07:22:08,653:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,686:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,687:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,689:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,741:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,774:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,774:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,777:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,777:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2022-09-04 07:22:08,829:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,862:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,865:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,916:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2022-09-04 07:22:08,949:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:08,952:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:08,952:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2022-09-04 07:22:09,036:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:09,039:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:09,128:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:09,131:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:09,131:INFO:Preparing preprocessing pipeline...
+2022-09-04 07:22:09,132:INFO:Set up simple imputation.
+2022-09-04 07:22:09,132:INFO:Set up variance threshold.
+2022-09-04 07:22:09,184:INFO:Finished creating preprocessing pipeline.
+2022-09-04 07:22:09,188:INFO:Pipeline: Pipeline(memory=Memory(location=C:\Users\JEANSW~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Madrid_wind_speed',
+                                             'Valencia_wind_speed',
+                                             'Seville_humidity',
+                                             'Madrid_humidity',
+                                             'Bilbao_clouds_all',
+                                             'Bilbao_wind_speed',
+                                             'Bilbao_wind_deg',
+                                             'Barcelona_wind_speed',
+                                             'Barcelona_wind_deg',
+                                             'Barcelona_pressure',
+                                             'Barcelona_weat...
+                                             'Bilbao_temp_max',
+                                             'Seville_temp_min',
+                                             'Madrid_temp_min', 'year',
+                                             'weekday', 'week_of_year',
+                                             'day_of_the_year', 'day'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(fill_value='constant',
+                                                              strategy='constant'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[],
+                                    transformer=VarianceThreshold(threshold=0)))])
+2022-09-04 07:22:09,188:INFO:Creating final display dataframe.
+2022-09-04 07:22:09,389:INFO:Setup display_container:                Description             Value
+0               Session id              7742
+1                   Target              hour
+2              Target type        Regression
+3               Data shape        (8763, 30)
+4         Train data shape        (6134, 30)
+5          Test data shape        (2629, 30)
+6         Numeric features                29
+7               Preprocess              True
+8          Imputation type            simple
+9       Numeric imputation              mean
+10  Categorical imputation          constant
+11  Low variance threshold                 0
+12          Fold Generator             KFold
+13             Fold Number                10
+14                CPU Jobs                -1
+15                 Use GPU             False
+16          Log Experiment             False
+17         Experiment Name  reg-default-name
+18                     USI              9390
+2022-09-04 07:22:09,479:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:09,482:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:09,567:INFO:Soft dependency imported: xgboost: 1.6.1
+2022-09-04 07:22:09,569:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-09-04 07:22:09,578:INFO:setup() successfully completed in 1.53s...............
+2022-09-04 07:24:29,851:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:24:46,826:WARNING:<timed exec>:3: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+
+2022-09-04 07:24:48,119:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:24:51,779:WARNING:<timed exec>:3: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+
+2022-09-04 07:27:04,045:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\utils\validation.py:1111: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:27:04,363:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\899010267.py:6: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
+2022-09-04 07:27:05,623:WARNING:C:\Users\JeanSwiegers\anaconda3\lib\site-packages\sklearn\ensemble\_gb.py:570: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+2022-09-04 07:27:09,272:WARNING:C:\Users\JeanSwiegers\AppData\Local\Temp\ipykernel_16268\899010267.py:6: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(X_train, y_train)
+
